@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS=-I ./
+CFLAGS=-I ./ -std=c99
 HEADER= gugudan.h
 
 gugudan: main.o one2three.o four2six.o seven2nine.o
